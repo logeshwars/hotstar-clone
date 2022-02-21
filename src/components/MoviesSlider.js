@@ -90,6 +90,8 @@ margin-top:5px;
 const OutWrap = Styled.div`
 display: flex !important ;  
 margin-top:10px;
-with:max-content;
+@media(max-width:768px){
+ height:24vh; 
+}
 height:30vh;
 `;

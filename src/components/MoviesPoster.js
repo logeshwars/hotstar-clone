@@ -35,6 +35,9 @@ function MoviesPoster({ details }) {
 export default MoviesPoster;
 const Container = Styled.div`
 width: 10vw;
+@media(max-width:768px){
+  width: 30vw;
+}
 z-index:2;
 height: 100%;
 margin-left:12px;

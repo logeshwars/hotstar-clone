@@ -100,6 +100,9 @@ display:flex !important;
 border-radius:10px;
 background-color:#0c111b !important;
 height: 60vh;
+@media(max-width:768px){
+  height: 40vh;
+}
 `;
 const Left = Styled.div`
 flex:35%;

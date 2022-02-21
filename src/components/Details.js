@@ -49,6 +49,7 @@ function Details() {
 
 export default Details;
 const Container = Styled.div`
+padding-top: 83px;
 hr{
   border: none;
   height: 0.1px;

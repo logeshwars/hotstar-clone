@@ -21,6 +21,7 @@ export default Home;
 const HomeContainer = Styled.div`
 overflow-x:hidden ;
 padding-bottom:10px;
+padding-top: 83px;
 
 `;
 const SlideHolder = Styled.div`

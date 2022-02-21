@@ -84,6 +84,11 @@ const Head = Styled.div`
 display:flex;
 align-items:center;
 padding:5px 50px;
+top:0;
+position: fixed;
+z-index:1;
+width: 100vw;
+ background: #141b29 ;
 justify-content:space-between;
 `;
 
@@ -103,6 +108,7 @@ margin-left:0px;
 
 `;
 const NavMenu = Styled.div`
+
 a{
     display:flex;
     align-items:center;
@@ -164,8 +170,4 @@ const List = Styled.div`
   height:55px;  
   padding:15px 10px;
   overflow: visible;
-  Menu{
-    top:10px;
-    margin-top:20px;
-  }
 `;
